@@ -1,29 +1,27 @@
-# Corbett Water Report Template
+# 209 Musterfield Rd — Corbett Water Report
 
-Master template repository for Corbett Management Reports client-facing water report websites.
+Quarterly irrigation usage and weather conditions for **209 Musterfield Rd, Concord, MA**.
 
-Approved production template version: **v1.0.0**.
+Current report: **Q3 2026 — FINAL**.
 
-Production template approval was granted on October 12, 2026.
+[View the report](https://corbett-watermanagement.github.io/corbett-water-report-209-musterfield-rd/)
 
-Approved template baseline commit: `b15b4819e9bda3e3071d4684ac7231392c756899`.
+## Website template
 
-The master demonstration intentionally retains generic TEST sample data. Template approval is separate from each account's numerical validation, QA, and publication approval.
+Shared template version: **v1.1.0**.
 
-## Purpose
+Template release: [Corbett Water Report Template v1.1.0](https://github.com/Corbett-WaterManagement/corbett-water-report-template/releases/tag/v1.1.0)
 
-This repository is the approved reusable blueprint for standalone account report websites.
+Template commit: `115acd9e363f21aa29d4a44a759a25600d3bdc48`.
 
-It contains:
-- standard HTML structure
-- shared CSS
-- shared JavaScript
-- Corbett branding assets
-- shared report behavior
-- sample/test data only
+The revision uses Corbett maroon and black for property identity and general report headings while preserving Smart Water Management colors for water metrics, charts and controls. The footer contains three disclosures covering monthly summaries, weather-station differences and system conditions.
 
-## Important
+This template update preserves the approved reporting values, account identity, reporting period, FINAL statuses and JSON schemas.
 
-This repository must not contain real client or management-account reporting data.
+## Reporting data and publication
 
-Each management account will have its own independent GitHub repository and permanent GitHub Pages site created from this template.
+The website loads its approved identity and active reporting period from `data/index.json`, and quarterly values from `data/quarters/2026-q3.json`.
+
+This permanent account repository and its GitHub Pages URL continue across reporting periods. Shared-template updates and quarterly data updates are separate, controlled workflows. A human applies approved repository changes; the resulting website is verified afterward.
+
+This public repository contains only customer-facing website files. Internal workbooks, registry files, notes, QA records, processing files, backups, previews and credentials are excluded.
